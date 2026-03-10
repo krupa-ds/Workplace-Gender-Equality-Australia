@@ -52,13 +52,15 @@ Examines the overall workforce composition across 5,155,750 employees (2,515,212
 
 ### 3. Gender Distribution by Industry
 
-A stacked horizontal bar chart showing the male/female split across all ANZSIC industry divisions. A parity line at 50% highlights which industries are male- or female-dominated. A standardised male-to-female ratio is also computed per industry.
+The male/female split across all ANZSIC industry divisions. A parity line at 50% highlights which industries are male- or female-dominated. A standardised male-to-female ratio is also computed per industry.
+
+![gender distribution by industry](./images/gendersplit.png)
 
 ### 4. Gender Pay Gap by Industry
 
-Compares mean male and female earnings across industries using ABS FY24 data. Visualisations include:
-- Normalised stacked bars showing relative pay share
-- Dollar-amount gap by industry (Men − Women)
+Comparison of mean male and female earnings across industries using ABS FY24 data.
+
+![gender pay gap by industry](./images/paygapindustry.png)
 
 ### 5. Skill Level Analysis
 
@@ -70,9 +72,13 @@ Analyses pay gaps across ABS skill levels (1–5, from bachelor degree to second
 
 > **Note:** Real Estate wages are largely commission-based, making that industry's data unreliable for this analysis.
 
+![gender pay gap by industry](./images/gli.png)
+
 ### 6. CEO Gender Split by Industry
 
 Examines the gender distribution of CEOs across industries (excluding Specsavers as an outlier with 434 male and 428 female CEOs). Plotted as a stacked bar chart with a parity line.
+
+![gender pay gap by industry](./images/ceogender.png)
 
 ### 7. Workplace Equality Questionnaire
 
@@ -88,6 +94,9 @@ Analyses employer responses to three WGEA survey questions about gender pay equa
 
 Responses are broken down both overall and by the gender ratio of each company's CEO(s).
 
+![gender pay gap by industry](./images/answer.png)
+![gender pay gap by industry](./images/answergender.png)
+
 ### 8. Hypothesis Testing
 
 **Hypothesis:** CEO gender determines action on gender pay equality.
@@ -96,4 +105,12 @@ The Health Care industry is highlighted as a case study — it has the largest p
 
 Statistical tests performed:
 - **Chi-square goodness-of-fit tests** comparing Health Care's distribution of CEO ratios and questionnaire answers against the overall dataset
+
+![gender pay gap by industry](./images/ceoratio.png)
+![gender pay gap by industry](./images/q1.png)
+![gender pay gap by industry](./images/q2.png)
+![gender pay gap by industry](./images/q3.png)
 - **Heatmaps** showing the relationship between CEO gender ratio and questionnaire responses across all industries for each question
+![gender pay gap by industry](./images/heat1.png)
+![gender pay gap by industry](./images/heat2.png)
+![gender pay gap by industry](./images/heat3.png)
